@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 99ae33889236b42fd8d471e5b5b0d2ab
-timeCreated: 1518065047
-licenseType: Pro
+timeCreated: 1518135656
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Title
@@ -9,10 +9,10 @@ TextureImporter:
     21300004: HeaderImage
     21300006: InputFieldloggin
     21300008: ButtonLogin
-    21300010: BTNLaporan
-    21300012: BTNWisata
-    21300014: BTNTempat
-    21300016: BTNBerita
+    21300010: iconLaporanBlue
+    21300012: iconWisataBlue
+    21300014: iconTempatBlue
+    21300016: iconBeritaBlue
     21300018: Line
   externalObjects: {}
   serializedVersion: 4
@@ -190,7 +190,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BTNLaporan
+      name: iconLaporanBlue
       rect:
         serializedVersion: 2
         x: 1159
@@ -204,7 +204,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BTNWisata
+      name: iconWisataBlue
       rect:
         serializedVersion: 2
         x: 802
@@ -218,7 +218,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BTNTempat
+      name: iconTempatBlue
       rect:
         serializedVersion: 2
         x: 447
@@ -232,7 +232,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BTNBerita
+      name: iconBeritaBlue
       rect:
         serializedVersion: 2
         x: 102
@@ -254,7 +254,7 @@ TextureImporter:
         width: 1440
         height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

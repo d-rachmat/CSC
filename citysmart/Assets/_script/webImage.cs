@@ -6,6 +6,12 @@ using UnityEngine.UI;
 public class webImage : MonoBehaviour {
 
     public string url = "https://upload.wikimedia.org/wikipedia/commons/a/af/Gunung_Padang_5th_terrace.jpeg";
+	public string wikiUrl;
+
+	public void wikiDirecion()
+	{
+		Application.OpenURL (wikiUrl);
+	}
 
     IEnumerator Start()
     {
@@ -15,7 +21,6 @@ public class webImage : MonoBehaviour {
         {
             yield return www;
             www.LoadImageIntoTexture(tex);
-
             gameObject.GetComponent<Image>().sprite = Sprite.Create(tex,new Rect(0,0,tex.width, tex.height), new Vector2(0.5f, 0.5f), 100.0f);
         }
     }

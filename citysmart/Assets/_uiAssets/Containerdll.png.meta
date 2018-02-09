@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 76bdd4923199b462087a3530d1c685e6
-timeCreated: 1518070733
-licenseType: Pro
+timeCreated: 1518135588
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Title
@@ -14,6 +14,10 @@ TextureImporter:
     21300014: iconATM
     21300016: iconPolisi
     21300018: iconRumahSakit
+    21300020: iconBeritaOrange
+    21300022: iconTempatOrange
+    21300024: iconWisataOrange
+    21300026: iconLapoanOrange
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -128,7 +132,7 @@ TextureImporter:
         width: 675
         height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,7 +146,7 @@ TextureImporter:
         width: 400
         height: 299
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,7 +160,7 @@ TextureImporter:
         width: 301
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,7 +174,7 @@ TextureImporter:
         width: 204
         height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,7 +188,7 @@ TextureImporter:
         width: 1327
         height: 914
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -198,7 +202,7 @@ TextureImporter:
         width: 1289
         height: 367
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -212,7 +216,7 @@ TextureImporter:
         width: 168
         height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,7 +230,7 @@ TextureImporter:
         width: 168
         height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -240,7 +244,7 @@ TextureImporter:
         width: 168
         height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,6 +257,62 @@ TextureImporter:
         y: 2124
         width: 168
         height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: iconBeritaOrange
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 53
+        width: 158
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: iconTempatOrange
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 53
+        width: 160
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: iconWisataOrange
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 53
+        width: 160
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: iconLapoanOrange
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 53
+        width: 160
+        height: 158
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
